@@ -1,0 +1,1 @@
+[int(i) for i in line.split()]
