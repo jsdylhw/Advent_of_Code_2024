@@ -31,8 +31,8 @@ for i in range(0, len(inputs), 3):
     a2 = int(i1[3][2:])
     b1 = int(i2[2][2:-1])
     b2 = int(i2[3][2:])
-    c1 = int(i3[1][2:-1])
-    c2 = int(i3[2][2:])
+    c1 = int(i3[1][2:-1]) + 10000000000000
+    c2 = int(i3[2][2:]) + 10000000000000
     ans += bottons(a1, a2, b1, b2, c1, c2)
 
 print(ans)
